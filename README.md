@@ -33,12 +33,22 @@ font-face
 ```
 @font-face {
     font-family: 'CBNU 70 YEARS';
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS.otf') format('opentype'),
-         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Regular.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CBNU 70 YEARS';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Bold.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/CBNU70YEARS/CBNU70YEARS-Bold.ttf') format('truetype');
 }
 ```
